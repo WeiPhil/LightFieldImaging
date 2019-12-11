@@ -32,7 +32,7 @@ Lightfield::Lightfield(const char *viewName, int initialRenderWidth, int initial
 
 void Lightfield::initHandles() {
 
-    Handle curr_image("Current Image", Type::INT, 0, 0, 5);
+    Handle curr_image("Current Image", Type::INT, 0, 0, 3);
     Handle modeText("modeText", Type::TEXT, "(0 = Directional ,1 = Aperture, 2 = Refocus)");
     Handle mode("Mode", Type::INT, 0, 0, 2);
     Handle apertureText("Aperture", Type::TEXT, "\tAperture options:");
