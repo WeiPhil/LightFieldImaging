@@ -1,3 +1,10 @@
 .ipynb_checkpoints/
 .DS_Store
-ligthfield_viewer/build
+lightfield_viewer/build/
+lightfield_viewer/ext/gl3w/CMakeFiles/
+lightfield_viewer/ext/gl3w/Makefile
+lightfield_viewer/ext/gl3w/cmake/gl3w-targets.cmake
+lightfield_viewer/ext/gl3w/cmake_install.cmake
+lightfield_viewer/ext/gl3w/include/
+lightfield_viewer/ext/gl3w/src/gl3w.c
+lightfield_viewer/ext/gl3w/CMakeCache.txt

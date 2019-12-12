@@ -223,8 +223,8 @@ void Lightfield::render(int actualRenderWidth, int actualRenderHeight) {
         x_pan += mouseDelta.x * sensibility * 0.3f * Qulkan::getDeltaTime();
         y_pan += mouseDelta.y * sensibility * 0.3f * Qulkan::getDeltaTime();
 
-        x_pan = std::clamp(x_pan, 1.0f, image_dims_side[current_image].z - 1.f);
-        y_pan = std::clamp(y_pan, 1.0f, image_dims_side[current_image].z - 1.f);
+        x_pan = std::max(x_pan, std::min(image_dims_side[current_image].z - 1.f, 1.0f));
+        y_pan = std::max(y_pan, std::min(image_dims_side[current_image].z - 1.f, 1.0f));
     }
 
     int *fstop = std::any_cast<int>(&handleManager("F-Stop")->value);
