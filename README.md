@@ -1,8 +1,11 @@
 # Light Field Imaging
 
+This small project is mainly based on previous work on Light Field Rendering by [Marc Levoy](https://graphics.stanford.edu/~levoy/) and [Ren Ng](https://graphics.stanford.edu/~renng/). This includes a view-based reconstruction, digital refocusing and dynamic aperture change
+The C++ implementation of this project is GPU-accelerated and was built on top of [Qulkan](https://github.com/WeiPhil/qulkan).
+
 ## C++ Implementation
 
-To build the C++ code you will need the libpng library on your computer, a c++ compiler of course and cmake. It has been tested on Mac and Linux only. If you run in any problem please let me know.  
+To build the C++ code you will need the libpng library on your computer, a c++ compiler of course and cmake. It has been tested on Mac and Linux only. If you run in any problem please let me know. 
 To compile and run follow these instructions:
 
     cd lightfield_viewer
